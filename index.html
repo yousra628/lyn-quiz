@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lyn's Secret Quiz 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Start Screen -->
+<div class="start-screen">
+  <h2>Welcome! 💕</h2>
+  <p>Enter your name to begin the quiz about Lyn:</p>
+  <input type="text" id="username" placeholder="Your name" />
+  <br>
+  <button onclick="startQuiz()">Start Quiz</button>
+</div>
+
+<!-- Quiz Screen -->
+<div class="quiz-container" style="display: none;">
+  <h2 id="question-title"></h2>
+  <div id="answers"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
